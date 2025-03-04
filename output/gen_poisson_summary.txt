@@ -1,0 +1,75 @@
+                    GeneralizedPoisson Regression Results                     
+==============================================================================
+Dep. Variable:                 Points   No. Observations:                 1800
+Model:             GeneralizedPoisson   Df Residuals:                     1750
+Method:                           MLE   Df Model:                           49
+Date:                Sun, 02 Mar 2025   Pseudo R-squ.:                 -0.1248
+Time:                        20:57:00   Log-Likelihood:                -7895.2
+converged:                       True   LL-Null:                       -7019.2
+Covariance Type:            nonrobust   LLR p-value:                     1.000
+==========================================================================================
+                             coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                           0        nan        nan        nan         nan         nan
+Team_76ers                -0.0121      0.014     -0.867      0.386      -0.040       0.015
+Team_Bucks                 0.0132      0.014      0.972      0.331      -0.013       0.040
+Team_Bulls                      0        nan        nan        nan         nan         nan
+Team_Cavaliers             0.0842      0.013      6.400      0.000       0.058       0.110
+Team_Celtics               0.0541      0.013      4.054      0.000       0.028       0.080
+Team_Clippers             -0.0119      0.014     -0.857      0.392      -0.039       0.015
+Team_Grizzlies             0.0348      0.013      2.653      0.008       0.009       0.060
+Team_Hawks                -0.0126      0.013     -0.936      0.349      -0.039       0.014
+Team_Heat                 -0.0057      0.014     -0.412      0.680      -0.033       0.022
+Team_Hornets              -0.0653      0.014     -4.592      0.000      -0.093      -0.037
+Team_Jazz                 -0.0118      0.014     -0.858      0.391      -0.039       0.015
+Team_Kings                 0.0235      0.014      1.733      0.083      -0.003       0.050
+Team_Knicks                     0        nan        nan        nan         nan         nan
+Team_Lakers                0.0153      0.014      1.101      0.271      -0.012       0.043
+Team_Magic                -0.0598      0.014     -4.280      0.000      -0.087      -0.032
+Team_Mavericks             0.0209      0.014      1.541      0.123      -0.006       0.047
+Team_Nets                 -0.0479      0.014     -3.365      0.001      -0.076      -0.020
+Team_Nuggets                    0        nan        nan        nan         nan         nan
+Team_Pacers                0.0269      0.014      1.985      0.047       0.000       0.054
+Team_Pelicans             -0.0242      0.014     -1.766      0.077      -0.051       0.003
+Team_Pistons               0.0014      0.013      0.106      0.916      -0.025       0.028
+Team_Raptors              -0.0233      0.014     -1.701      0.089      -0.050       0.004
+Team_Rockets                    0        nan        nan        nan         nan         nan
+Team_Spurs                -0.0003      0.014     -0.019      0.985      -0.027       0.027
+Team_Suns                  0.0233      0.014      1.709      0.088      -0.003       0.050
+Team_Thunder                    0        nan        nan        nan         nan         nan
+Team_Timberwolves          0.0123      0.014      0.901      0.368      -0.014       0.039
+Team_Trail Blazers        -0.0248      0.014     -1.804      0.071      -0.052       0.002
+Team_Warriors                   0        nan        nan        nan         nan         nan
+Team_Wizards              -0.0609      0.014     -4.359      0.000      -0.088      -0.034
+Opponent_76ers             0.0150      0.014      1.064      0.287      -0.013       0.043
+Opponent_Bucks            -0.0078      0.014     -0.552      0.581      -0.035       0.020
+Opponent_Bulls                  0        nan        nan        nan         nan         nan
+Opponent_Cavaliers        -0.0257      0.014     -1.830      0.067      -0.053       0.002
+Opponent_Celtics          -0.0322      0.014     -2.281      0.023      -0.060      -0.005
+Opponent_Clippers         -0.0407      0.014     -2.844      0.004      -0.069      -0.013
+Opponent_Grizzlies        -0.0243      0.014     -1.765      0.078      -0.051       0.003
+Opponent_Hawks                  0        nan        nan        nan         nan         nan
+Opponent_Heat             -0.0031      0.014     -0.218      0.828      -0.031       0.025
+Opponent_Hornets           0.0019      0.014      0.134      0.893      -0.026       0.029
+Opponent_Jazz              0.0375      0.014      2.733      0.006       0.011       0.064
+Opponent_Kings             0.0077      0.014      0.553      0.580      -0.020       0.035
+Opponent_Knicks            0.0136      0.014      0.972      0.331      -0.014       0.041
+Opponent_Lakers           -0.0139      0.014     -0.966      0.334      -0.042       0.014
+Opponent_Magic            -0.0472      0.014     -3.320      0.001      -0.075      -0.019
+Opponent_Mavericks        -0.0095      0.014     -0.688      0.491      -0.037       0.018
+Opponent_Nets                   0        nan        nan        nan         nan         nan
+Opponent_Nuggets           0.0045      0.014      0.324      0.746      -0.023       0.031
+Opponent_Pacers            0.0066      0.014      0.475      0.634      -0.021       0.034
+Opponent_Pelicans          0.0250      0.014      1.838      0.066      -0.002       0.052
+Opponent_Pistons          -0.0174      0.014     -1.255      0.210      -0.045       0.010
+Opponent_Raptors           0.0013      0.014      0.096      0.923      -0.026       0.028
+Opponent_Rockets          -0.0490      0.014     -3.440      0.001      -0.077      -0.021
+Opponent_Spurs                  0        nan        nan        nan         nan         nan
+Opponent_Suns              0.0303      0.014      2.187      0.029       0.003       0.058
+Opponent_Thunder          -0.0726      0.014     -5.059      0.000      -0.101      -0.044
+Opponent_Timberwolves     -0.0348      0.014     -2.472      0.013      -0.062      -0.007
+Opponent_Trail Blazers     0.0061      0.014      0.438      0.661      -0.021       0.033
+Opponent_Warriors         -0.0260      0.014     -1.848      0.065      -0.054       0.002
+Opponent_Wizards           0.0306      0.014      2.243      0.025       0.004       0.057
+alpha                      0.0156      0.019      0.843      0.399      -0.021       0.052
+==========================================================================================
